@@ -1,0 +1,6 @@
+{
+    "mappings": {
+        "wp-content/plugins/xxx": "./CodeScreen_xxx/wp-content/plugins/xxx",
+        "wp-content/themes/xxx": "./CodeScreen_xxx/wp-content/themes/xxx"
+    }
+}

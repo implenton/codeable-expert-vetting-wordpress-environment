@@ -1,0 +1,4 @@
+#!/bin/bash
+cp .wp-env.json.example .wp-env.json
+npm install
+chmod +x ./phpcs

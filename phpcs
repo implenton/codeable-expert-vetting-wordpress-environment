@@ -1,0 +1,9 @@
+#!/bin/bash
+CMD=$*
+
+if [[ -z ${CMD} ]]; then
+    echo "No path provided for the PHPCS. Do it?"
+    exit 1
+fi
+
+docker run -it --rm -v $(pwd):/app willhallonline/wordpress-phpcs:alpine phpcs "$CMD"

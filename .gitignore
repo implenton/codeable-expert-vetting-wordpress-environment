@@ -1,0 +1,4 @@
+CodeScreen*
+node_modules
+.wp-env.json
+package-lock.json
